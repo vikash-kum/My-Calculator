@@ -35,8 +35,8 @@
             android:layout_marginLeft="2pt"
             android:layout_marginRight="2pt"
             android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
             android:onClick="onDigit"
-            android:background="@color/white"
             android:text="@string/seven" />
 
         <Button
@@ -46,33 +46,34 @@
             android:layout_marginLeft="2pt"
             android:layout_marginRight="2pt"
             android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
             android:onClick="onDigit"
-            android:background="@color/white"
-            android:text="@string/eight" />
+            android:text="@string/eight"
+            app:cornerRadius="10dp" />
 
         <Button
             android:id="@+id/btnNine"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/nine"
-            android:onClick="onDigit"
-            android:background="@color/white"
             android:layout_marginLeft="2pt"
             android:layout_marginRight="2pt"
-            />
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
+            android:onClick="onDigit"
+            android:text="@string/nine"
+            app:cornerRadius="10dp" />
 
         <Button
             android:id="@+id/btnDivied"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/divied"
             android:layout_marginLeft="2pt"
             android:layout_marginRight="2pt"
-            android:background="@color/white"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
             android:onClick="onOperator"
-            />
+            android:text="@string/divied"
+            app:cornerRadius="10dp" />
 
 
 
@@ -92,36 +93,37 @@
             android:id="@+id/btnFour"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/four"
             android:layout_marginLeft="2pt"
             android:layout_marginRight="2pt"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
             android:onClick="onDigit"
-            android:background="@color/white"
-            />
+            android:text="@string/four"
+            app:cornerRadius="10dp" />
+
         <Button
             android:id="@+id/btnFive"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/five"
             android:layout_marginLeft="2pt"
             android:layout_marginRight="2pt"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
             android:onClick="onDigit"
-            android:background="@color/white"
-            />
+            android:text="@string/five"
+            app:cornerRadius="10dp" />
 
         <Button
             android:id="@+id/btnSix"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/six"
             android:layout_marginLeft="2pt"
             android:layout_marginRight="2pt"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
             android:onClick="onDigit"
-            android:background="@color/white"
-            />
+            android:text="@string/six"
+            app:cornerRadius="10dp" />
 
         <Button
             android:id="@+id/btnMultiply"
@@ -130,9 +132,10 @@
             android:layout_marginLeft="2pt"
             android:layout_marginRight="2pt"
             android:layout_weight="1"
-            android:background="@color/white"
+            android:background="@drawable/rounded_corner"
             android:onClick="onOperator"
-            android:text="@string/multiply" />
+            android:text="@string/multiply"
+            app:cornerRadius="10dp" />
 
 
 
@@ -152,49 +155,49 @@
             android:id="@+id/btnOne"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/one"
             android:layout_marginLeft="2pt"
             android:layout_marginRight="2pt"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
             android:onClick="onDigit"
-            android:background="@color/white"
-            />
+            android:text="@string/one"
+            app:cornerRadius="10dp" />
 
         <Button
             android:id="@+id/btnTwo"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/two"
             android:layout_marginLeft="2pt"
             android:layout_marginRight="2pt"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
             android:onClick="onDigit"
-            android:background="@color/white"
-            />
+            android:text="@string/two"
+            app:cornerRadius="10dp" />
 
         <Button
             android:id="@+id/btnThree"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/three"
             android:layout_marginLeft="2pt"
             android:layout_marginRight="2pt"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
             android:onClick="onDigit"
-            android:background="@color/white"
-            />
+            android:text="@string/three"
+            app:cornerRadius="10dp" />
 
         <Button
             android:id="@+id/btnSubtract"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/subtract"
             android:layout_marginLeft="2pt"
             android:layout_marginRight="2pt"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
             android:onClick="onOperator"
-            android:background="@color/white"
-            />
+            android:text="@string/subtract"
+            app:cornerRadius="10dp" />
 
 
 
@@ -214,48 +217,49 @@
             android:id="@+id/btnDicimal"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/dot"
             android:layout_marginLeft="2pt"
             android:layout_marginRight="2pt"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
             android:onClick="onDicimalPoint"
-            android:background="@color/white"
-            />
+            android:text="@string/dot"
+            app:cornerRadius="10dp" />
+
         <Button
             android:id="@+id/btnZero"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/zero"
             android:layout_marginLeft="2pt"
             android:layout_marginRight="2pt"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
             android:onClick="onDigit"
-            android:background="@color/white"
-            />
+            android:text="@string/zero"
+            app:cornerRadius="10dp" />
 
         <Button
             android:id="@+id/btnClear"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/clear"
             android:layout_marginLeft="2pt"
             android:layout_marginRight="2pt"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
             android:onClick="onClear"
-            android:background="@color/white"
-            />
+            android:text="@string/clear"
+            app:cornerRadius="10dp" />
 
         <Button
             android:id="@+id/btnAdd"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/pluse"
             android:layout_marginLeft="2pt"
             android:layout_marginRight="2pt"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
             android:onClick="onOperator"
-            android:background="@color/white"
-            />
+            android:text="@string/pluse"
+            app:cornerRadius="10dp" />
 
 
     </LinearLayout>
@@ -274,11 +278,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/rounded_corner"
+            android:onClick="onEqual"
             android:padding="2pt"
             android:text="@string/equal"
-            android:onClick="onEqual"
-            android:background="@color/white"
-            />
+            app:cornerRadius="10dp" />
 
     </LinearLayout>
 
